@@ -34,5 +34,14 @@ float: left;
 
 .content{
     width: 70%;
-    background-color: aqua
+    background-color: aqua;
+    height: 500px;
+    margin: 20px;
+}
+
+.sidebar{
+    width: 30%;
+    background-color: grey;
+    height: 500px;
+    margin: 20px;
 }
