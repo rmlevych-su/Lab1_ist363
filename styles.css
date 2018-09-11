@@ -19,12 +19,14 @@ float: left;
 
 .header ul {
     float: right;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
 }
 
 .header li {
     float: left;
     margin-left: 20px;
-
 }
 
 .header a {
@@ -35,13 +37,30 @@ float: left;
 .content{
     width: 70%;
     background-color: aqua;
-    height: 500px;
-    margin: 20px;
+   float: left;
+
 }
 
 .sidebar{
     width: 30%;
     background-color: grey;
-    height: 500px;
-    margin: 20px;
+    float: left;
+    min-height: 500px;
+    color: red;
+}
+
+.blog-post{
+margin:10px;
+background-color: white;
+border-color: grey;
+border-style: groove;
+border-radius: 15px;
+padding: 10px;
+min-height: 225px;
+}
+
+.image{
+    float: left;
+    margin-right: 15px;
+    margin-bottom: 15px;
 }
